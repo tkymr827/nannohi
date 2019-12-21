@@ -29,7 +29,7 @@ export default {
         .then(response => {
           this.content = response.data
         })
-      axios.get('https://script.google.com/macros/s/AKfycbyG2TWL7bSBPJ0ZEeCBcZstZP2yTShdo72OADZgsS3FawpsbUs/exec?text=' + this.content + '&source=en&target=jp')
+      axios.get('https://script.google.com/macros/s/AKfycbzoABPxdW3LWsBzO8grBU2O9iqXzYaaza6WmU0Jew3AkL-wtSKG/exec?text=' + this.content + '&source=en&target=jp')
         .then(response => {
           console.log(response)
         })
