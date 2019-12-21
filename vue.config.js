@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/nannohi/',
+  publicPath: '/',
   assetsDir: './',
   outputDir: 'docs',
   filenameHashing: false,
